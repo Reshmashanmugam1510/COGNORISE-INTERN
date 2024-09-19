@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(90, 186, 207);
+    display: flex;
+    min-height: 100vh;
+}
+.container{
+    background-color: #ffffff;
+    box-sizing: border-box;
+    width: 350px;
+    height: 500px;
+    padding: 30px;
+    border-radius: 10px;
+}
+.container header{
+    font-size: 28px;
+    text-align: center;
+    font-weight: bold;
+}
+.container form{
+    margin: 40px 0 20px 0;
+}
+form :where(input, select, button){
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 5px;   
+}
+form p{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+form input{
+    height: 50px;
+    font-size: 18px;
+    padding: 0 15px;
+    border: 1px solid rgb(83, 187, 231);
+}
+form input:hover{
+    border: 2px solid  rgb(83, 187, 231);
+}
+form .list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.list .select-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 115px;
+    border: 1px solid  rgb(83, 187, 231);
+    border-radius: 5px;
+}
+.list .select-box:hover{
+    border: 2px solid  rgb(83, 187, 231);
+}
+
+.select-box select{
+    width: auto;
+    font-size: 16px;
+    margin: 0 -5px 0 5px;
+}
+.select-box img{
+    max-width :35px;
+}
+.icon img{
+    width: 20px;
+    height: 20px;
+}
+.list .icon{
+    cursor: pointer;
+    margin-top: 30px;
+}
+form .exchange-rate{
+    font-size: 18px;
+    margin: 20px 0 30px;
+}
+form button{
+    height: 50px;
+    color: black;
+    background:   rgb(83, 187, 231);
+    cursor: pointer;
+    font-size: 16px;
+}
+form button:hover{
+    background-color: rgb(156, 197, 252);
+}

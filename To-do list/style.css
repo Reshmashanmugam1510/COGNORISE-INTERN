@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.container{
+    height: 680px;
+    background-color: rgb(83, 111, 168);
+    margin: 0;
+    padding: 0 10px;
+    width: 100%;
+}
+
+.frame{
+    text-align: center;
+    margin: 0;
+    padding: 0 10px;
+    font-size: 25px;
+}
+.adding-list{
+    margin-left: 500px;
+    background-color: rgb(216, 217, 221);
+    height: 500px;
+    width: 500px;;
+    border-radius: 30px;
+    padding: 30px 40px;
+}
+#newtask{
+    padding: 20px 20px;
+    cursor: pointer;
+    border-radius: 50px;
+    box-shadow: 0 15px 30px rgb(147, 166, 216);
+}
+#newtask input{
+    width: 70%;
+    height: 40px;
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    border: 2px solid rgb(143, 140, 144);
+    padding: 12px;
+    color:black;
+    position: relative;
+    border-radius: 50px;
+}
+#newtask button{
+    position: relative;
+    cursor: pointer;
+    float: right;
+    width: 20%;
+    height: 40px;
+    border-radius: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    border: none;
+    background-color: rgb(95, 123, 207);
+}
+#tasks{
+    background-color: white;
+    padding: 30px 20px;
+    margin-top: 60px;
+    border-radius: 50px;
+    box-shadow: 0 15px 30px rgb(147, 166, 216);
+    width: 92%;
+    position: relative;
+}
+.task{
+    background-color: white;
+    height: 50px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #d1d3d4;
+}
+.task span{
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+}
+.task button{
+    background-color: white;
+    color: white;
+    height: 100%;
+    width: 40px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+.delete img{
+    height: 17px;
+    width: 15px;
+}
+.completed{
+    text-decoration: line-through;
+}
